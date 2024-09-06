@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Últimas noticias sobre tecnología en ITIZ NEWS">
   <title>ITIZ NEWS</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -11,17 +12,52 @@
     <h1>ITIZ NEWS</h1>
     <nav>
       <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Noticias</a></li>
-        <li><a href="#">Eventos</a></li>
-        <li><a href="#">Contacto</a></li>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#news">Noticias</a></li>
+        <li><a href="#events">Eventos</a></li>
+        <li><a href="#plantel">Plantel</a></li> <!-- Nuevo botón de navegación -->
+        <li><a href="#contact">Contacto</a></li>
+        <li><a href="#subscribe">Suscríbete</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section id="news-container">
-      <!-- Aquí se cargarán dinámicamente las noticias -->
+    <section id="home">
+      <h2>Bienvenidos a ITIZ NEWS</h2>
+      <p>Tu fuente confiable de noticias tecnológicas.</p>
+    </section>
+
+    <section id="news">
+      <h2>Últimas Noticias</h2>
+      <div id="news-container">
+        <!-- Aquí se cargarán dinámicamente las noticias -->
+      </div>
+    </section>
+
+    <section id="events">
+      <h2>Eventos</h2>
+      <p>Próximos eventos y conferencias.</p>
+    </section>
+
+    <section id="plantel"> <!-- Nueva sección de Plantel -->
+      <h2>Plantel</h2>
+      <p>Conoce a nuestro equipo de expertos en tecnología.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contacto</h2>
+      <p>Información para contactarnos.</p>
+    </section>
+
+    <section id="subscribe">
+      <h2>Suscríbete</h2>
+      <p>Rellena el siguiente formulario para recibir nuestras actualizaciones:</p>
+      <form action="#" method="post">
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Suscribirse</button>
+      </form>
     </section>
   </main>
 
